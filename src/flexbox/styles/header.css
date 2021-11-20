@@ -1,0 +1,59 @@
+.header__padding_1 {
+    margin-top: 5px;
+}
+
+.header__padding_2 {
+    margin-right: 35px;
+}
+
+.header__padding_3 {
+    margin-right: 35px;
+}
+
+.header__padding_4 {
+    margin-right: 103px;
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header__icon {
+    padding-top: 5px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.header__item a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.header__item a span {
+    padding-top: 2px;
+}
+
+.header__hover:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 28px;
+}
+
+.header__section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
