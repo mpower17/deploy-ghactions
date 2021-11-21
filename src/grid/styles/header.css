@@ -1,0 +1,62 @@
+.header {
+    margin: auto;
+    height: 80px;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header__icon {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 26px;
+}
+
+.header__navigation {
+    display: flex;
+    width: 400px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.header__navigation a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-top: 29px;
+    padding-right: 60px;
+}
+
+.header__hover:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 28px;
+}
+
+.burger {
+    display: none;
+}
+
+@media (max-width: 848px) {
+    .header__navigation a {
+        display: none;
+    }
+
+    .logout__btn {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        height: 24px;
+        width: 24px;
+        background: url(../images/hamburger.png) center no-repeat;
+        border: none;
+        margin-top: 25px;
+        margin-right: 50px;
+    }
+}

@@ -1,0 +1,108 @@
+.card {
+    width: 400px;
+    height: 598px;
+    border-radius: 130px;
+    padding-right: 10px;
+}
+
+.card-container {
+    margin-top: 50px;
+}
+
+.card__header .card__category {
+    border-radius: 12px;
+    padding: 7px;
+    background-color: white;
+    height: 27px;
+    width: 75px;
+
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.card__header .card__delete_icon {
+    padding: 7px;
+    border-radius: 8px;
+    background-color: white;
+    height: 27px;
+    width: 27px;
+}
+
+.card__header {
+    height: 247px;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px 0 20px;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    height: 282px;
+    background-color: #FFFFFF;
+    border-radius: 0 0 20px 20px;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.card__content .date {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B6BCBF;
+}
+
+.card__content a {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.card__content p {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.card__content .resource a {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+    color: #B6BCBF;
+    padding-top: 30px;
+}
+
+.card__content .card__postname {
+    margin-top: 10px;
+}
+
+.card__content .card__postinfo {
+    margin-top: 17px;
+}
+
+.card__content .resource {
+    margin-top: auto;
+    margin-bottom: 18px;
+}
