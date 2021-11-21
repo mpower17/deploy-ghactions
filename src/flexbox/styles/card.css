@@ -1,14 +1,12 @@
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
 .card {
     width: 400px;
     height: 598px;
     border-radius: 130px;
-    padding-right: 13px;
+    padding-right: 10px;
+}
+
+.card-container {
+    margin-top: 50px;
 }
 
 .card__header .card__category {

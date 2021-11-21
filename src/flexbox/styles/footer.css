@@ -1,15 +1,4 @@
-.footer {
-    display: flex;
-    align-items: center;
-    height: 64px;
-}
-
-.footer__section {
-    align-items: center;
-    text-align: center;
-}
-
-.footer__section span {
+.footer__source {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
@@ -18,7 +7,7 @@
     color: #B6BCBF;
 }
 
-.footer__section a {
+.link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
@@ -29,4 +18,24 @@
     text-align: center;
 
     color: #1A1B22;
+}
+
+.footer__navigation {
+    flex: 1 1 308px;
+    display: block;
+    text-align: right;
+}
+
+.footer__social {
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+
+.footer__social .icon {
+    width: 70px;
+}
+
+.footer__navigation a {
+    margin-left: 50px;
 }

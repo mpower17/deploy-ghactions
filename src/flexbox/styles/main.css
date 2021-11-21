@@ -1,8 +1,28 @@
-body {
-    margin: 0 auto;
-    width: 1440px;
+* {
+    margin: 0;
 }
 
-.page__margin {
-    margin-left: 105px;
+.fixed-container {
+    max-width: 1232px;
+    margin: 0 auto;
+}
+
+.header > .fixed-container {
+    width: 100%;
+    display: flex;
+}
+
+.content > .fixed-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer > .fixed-container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }

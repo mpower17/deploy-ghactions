@@ -1,49 +1,34 @@
-.header__padding_1 {
-    margin-top: 5px;
-}
-
-.header__padding_2 {
-    margin-right: 35px;
-}
-
-.header__padding_3 {
-    margin-right: 35px;
-}
-
-.header__padding_4 {
-    margin-right: 103px;
-}
-
 .header {
     margin: auto;
-    display: flex;
-    justify-content: space-between;
     height: 80px;
     border-bottom: 2px solid #E5E5E5;
 }
 
 .header__icon {
-    padding-top: 5px;
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 24px;
     font-weight: 700;
+    margin-top: 26px;
 }
 
-.header__item a {
+.header__navigation {
+    display: flex;
+    width: 400px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.header__navigation a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 24px;
     text-decoration: none;
     color: black;
-}
-
-.header__item a span {
-    padding-top: 2px;
+    margin-top: 29px;
+    padding-right: 60px;
 }
 
 .header__hover:hover {
@@ -52,8 +37,26 @@
     text-underline-offset: 28px;
 }
 
-.header__section {
-    display: flex;
-    align-items: center;
-    text-align: center;
+.burger {
+    display: none;
+}
+
+@media (max-width: 848px) {
+    .header__navigation a {
+        display: none;
+    }
+
+    .logout__btn {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        height: 24px;
+        width: 24px;
+        background: url(../images/hamburger.png) center no-repeat;
+        border: none;
+        margin-top: 25px;
+        margin-right: 50px;
+    }
 }

@@ -1,15 +1,15 @@
-a.button14 {
-  display: inline-block;
+.logout__btn {
+  font-family: 'Roboto';
   text-shadow: 1px 1px #fff;
-  text-decoration: none;
   padding: .6em 1.2em;
   border: 1px solid #aaa;
-  border-radius: 130px;
+  border-radius: 50px;
   outline: none;
   overflow: hidden;
+  margin-top: 17px;
 }
 
-.button14 svg {
+.logout__btn svg {
   position: relative;
   left: 4px;
   top: 3px;

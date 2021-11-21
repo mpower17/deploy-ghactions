@@ -1,16 +1,21 @@
+.content {
+    margin: auto;
+    max-width: 1232px;
+}
+
 .content__header h1 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
-    padding-top: 10px;
+    margin-top: 10px;
     color: rgba(26, 27, 34, 0.5);
     margin-top: 26px;
 }
 
 .content__header h2 {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -21,16 +26,10 @@
 }
 
 .content__header h3 {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
-}
-
-.content__main {
-    margin-top: 50px;
-    padding-top: 65px;
-    height: 1242px;
-    background-color: #F5F6F7;
+    margin-top: 30px;
 }
