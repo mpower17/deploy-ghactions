@@ -1,16 +1,16 @@
 .logout__btn {
-  font-family: 'Roboto';
-  text-shadow: 1px 1px #fff;
-  padding: .6em 1.2em;
-  border: 1px solid #aaa;
-  border-radius: 50px;
-  outline: none;
-  overflow: hidden;
-  margin-top: 17px;
+    font-family: 'Roboto';
+    text-shadow: 1px 1px #fff;
+    padding: .6em 1.2em;
+    border: 1px solid #aaa;
+    border-radius: 50px;
+    outline: none;
+    overflow: hidden;
+    margin-top: 17px;
 }
 
 .logout__btn svg {
-  position: relative;
-  left: 4px;
-  top: 3px;
+    position: relative;
+    left: 4px;
+    top: 3px;
 }
